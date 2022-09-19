@@ -7,15 +7,16 @@
 точки.
 Примеры ввода и вывода:
 '''
+import math
 print('введите x1 :')
-x1 = int(input())
+x1 = float(input())
 print('введите y1 :')
-y1 = int(input())
+y1 = float(input())
 print('введите x2 :')
-x2 = int(input())
+x2 = float(input())
 print('введите y2 :')
-y2 = int(input())
+y2 = float(input())
 s = (abs(x1 - x2) * abs(y1 - y2))
 p = (abs(x1 - x2) + abs(y1 - y2))
-print('площадь = ', s,
-      'периметр = ', p)
+print('площадь = ', "%.2f" % s,
+      'периметр = ', "%.2f" % p)
